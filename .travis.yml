@@ -16,4 +16,4 @@ matrix:
       python: 3.6
 install:
   - "pip install 'virtualenv<14.0.0' tox"
-script: tox -e py
+script: tox
